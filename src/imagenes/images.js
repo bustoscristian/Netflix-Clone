@@ -7,7 +7,6 @@ import wendsday from '../imagenes/wendsday.jpg';
 import strangerThings from '../imagenes/strangerThings.jpg';
 import boxStrangerThings from '../imagenes/boxStrangerThings.png';
 import tecnoImagenes from '../imagenes/tecnoImagenes.png';
-import strangerThingsMovie from '../imagenes/strangerThingsMovie.mp4'
 import perfilNiñosFoto from '../imagenes/perfilNiñosFoto.png';
 
 export default {
@@ -20,6 +19,5 @@ export default {
     "strangerThings": strangerThings,
     "boxStrangerThings": boxStrangerThings,
     "tecnoImagenes": tecnoImagenes,
-    "strangerThingsMovie": strangerThingsMovie,
     "perfilNiñosFoto": perfilNiñosFoto,
 }

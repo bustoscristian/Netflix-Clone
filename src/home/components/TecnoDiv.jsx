@@ -1,7 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material"
 import images from '../../imagenes/images'
 
-const {tecnoImagenes, strangerThingsMovie} = images
+const {tecnoImagenes} = images
 
 export const TecnoDiv = () => {
   return (
@@ -13,7 +13,7 @@ export const TecnoDiv = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4} sx={{display:'flex', justifyContent:'center'}}>
                 <img src={tecnoImagenes} alt='Tecno Imagen' className='tecnoImagen' />
-                <video src={strangerThingsMovie} alt='Stranger Movie' className='strangerThingMovie' autoPlay loop muted/>
+                {/* <video src={strangerThingsMovie} alt='Stranger Movie' className='strangerThingMovie' autoPlay loop muted/> */}
             </Grid>
         </Grid>
     </Box>
