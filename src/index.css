@@ -1,0 +1,179 @@
+
+.logo {
+  height: 100px;
+}
+
+.fondo{
+  margin:0;
+  padding:0;
+  background-image: url(./imagenes/netflix-fondo.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.button{
+  background-color: #E50914;
+  color: white;
+  border-radius: 3px;
+  height: 35px;
+  width: 130px;
+  font-size: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-style: hidden;
+  box-shadow: 1px 0px 2px 2px black;
+}
+
+.h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  margin-top: 150px;
+}
+
+.h2{
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.titulos{
+  display: flex;
+  justify-content: center;
+}
+
+.textField{
+  text-align:start;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 55px;
+  width: 400px;
+  border-radius: 5px;
+  border-style: hidden;
+}
+
+.btnComenzar{
+  background-color: #E50914;
+  color: white;
+  border-radius: 3px;
+  height: 55px;
+  width: 200px;
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  border-style: hidden;
+}
+
+.espacio{
+  height: 8px;
+  background-color: #333333;
+  opacity: .9;
+}
+
+.tvFoto{
+  height: 400px;
+  position: absolute;
+}
+
+.youFoto{
+  height: 350px;
+  width: 460px;
+  justify-content: center;
+}
+
+.strangerThingMobil{
+  height: 380px;
+  width: 500px;
+  position: relative;
+  z-index: 1;
+}
+
+.rectanguloStrangerThings{
+  width: 330px; 
+  height: 100px; 
+  border: 2px solid #333333;
+  background-color: black;
+  border-radius: 10px;
+  z-index: 2;
+  left: 13%;
+  top: 68%;
+  opacity: .9;
+}
+
+.strangerBox{
+  height: 80px;
+  width: 60px;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.strangerTitulo{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  color: white;
+}
+
+.strangerLoading{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #0000EE;
+}
+
+.loader {
+  box-sizing: border-box;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+.loader:after, .loader:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  border-radius: 50%;
+  background: #FF3D00;
+  animation: spin 1s linear infinite;
+  transform-origin: 0px 100%;
+}
+.loader:before {
+  transform-origin: 0 50%;
+  background: #fff;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tecnoImagen{
+  position: relative;
+  z-index: 2;
+}
+
+.strangerThingMovie{
+  position: absolute;
+  z-index: 1;
+  width: 25%;
+  height: 25%;
+  margin-top: 25px;
+  justify-content: center;
+}
+
+.perfilNiñosFoto{
+  width: 500px;
+  height: 400px;
+}
