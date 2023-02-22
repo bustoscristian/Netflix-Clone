@@ -13,7 +13,7 @@ export const TecnoDiv = () => {
             </Grid>
             <Grid item xs={12} sm={6} md={4} sx={{display:'flex', justifyContent:'center'}}>
                 <img src={tecnoImagenes} alt='Tecno Imagen' className='tecnoImagen' />
-                {/* <video src={strangerThingsMovie} alt='Stranger Movie' className='strangerThingMovie' autoPlay loop muted/> */}
+                <video src="https://res.cloudinary.com/ddo7zm2tr/video/upload/v1677077506/StrangerThingsMovie_m677ci.mp4" alt='Stranger Movie' className='strangerThingMovie' autoPlay loop muted/>
             </Grid>
         </Grid>
     </Box>
