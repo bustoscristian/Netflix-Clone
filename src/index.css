@@ -33,6 +33,22 @@
   margin-top: 150px;
 }
 
+.h1_preguntas{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+
+.h1_accordion{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+
 .h2{
   font-family:Arial, Helvetica, sans-serif;
   color: white;
@@ -45,6 +61,13 @@
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   margin-top: 15px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.p_accordion{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
   font-size: 25px;
   font-weight: lighter;
 }
@@ -176,4 +199,17 @@
 .perfilNiñosFoto{
   width: 500px;
   height: 400px;
+}
+
+.link{
+  color: #FFFFFFB3;
+  margin-top: 3%;
+}
+
+.h1_frecuentes{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #FFFFFFB3;
+  margin-top: 150px;
 }

@@ -8,6 +8,7 @@ import { DownloadDiv } from './components/DownloadDiv'
 import { TecnoDiv } from './components/TecnoDiv'
 import { PerfilesNiño } from './components/PerfilesNiño'
 import { PreguntasDiv } from './components/PreguntasDiv'
+import { Footer } from '../shared/Footer'
 
 export const NetflixHome = () => {
 
@@ -27,6 +28,7 @@ export const NetflixHome = () => {
         <div className='espacio'></div>
         <PreguntasDiv />
         <div className='espacio'></div>
+        <Footer />
       </Box>
     </PublicLayout>
     
