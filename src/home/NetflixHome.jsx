@@ -9,13 +9,15 @@ import { TecnoDiv } from './components/TecnoDiv'
 import { PerfilesNiño } from './components/PerfilesNiño'
 import { PreguntasDiv } from './components/PreguntasDiv'
 import { Footer } from '../shared/Footer'
+import { LoginPage } from '../auth/LoginPage'
 
 export const NetflixHome = () => {
 
   return (
     <PublicLayout>
-      <Box className='fondo' sx={{height: '100%', backgroundColor:'red', width:'100%', }}>
-        <TopDiv />
+      <Box className='fondo' sx={{height: '100%', backgroundColor:'red', width:'100%'}}>
+        <LoginPage />
+        {/* <TopDiv />
         <MidDiv />
         <div className='espacio'></div>
         <TvDiv />
@@ -28,7 +30,7 @@ export const NetflixHome = () => {
         <div className='espacio'></div>
         <PreguntasDiv />
         <div className='espacio'></div>
-        <Footer />
+        <Footer /> */}
       </Box>
     </PublicLayout>
     
